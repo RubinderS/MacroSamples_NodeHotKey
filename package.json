@@ -1,0 +1,30 @@
+{
+  "name": "sampleproject_using_nodehotkey",
+  "version": "1.0.0",
+  "description": "This is a sample project to built using NodeHotKey.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e js,ts -w ./src --exec \"yarn run build && yarn run start\"",
+    "start": "node ./build/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rubinder25/SampleProject_using_NodeHotKey.git"
+  },
+  "keywords": [
+    "NodeHotKey"
+  ],
+  "author": "Rubinder Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rubinder25/SampleProject_using_NodeHotKey/issues"
+  },
+  "homepage": "https://github.com/Rubinder25/SampleProject_using_NodeHotKey#readme",
+  "dependencies": {
+    "nodehotkey": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.5"
+  }
+}
