@@ -1,3 +1,5 @@
+https://github.com/Rubinder25/NodeHotKey  
+https://www.npmjs.com/package/nodehotkey  
 # Usage
 `npm install`  
 follow this page to install dependencies for robot-js on your platform:
