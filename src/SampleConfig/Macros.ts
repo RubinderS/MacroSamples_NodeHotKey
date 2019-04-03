@@ -60,7 +60,7 @@ export let Macros: MacroType = {
 		]
 	},
 
-	//Macro 7: run every 3 secs when notepad window is open
+	//Macro 7: run every 3 sec when notepad window is open
 	'Detect on Notepad': {
 		loop: 3,
 		conditions: {
