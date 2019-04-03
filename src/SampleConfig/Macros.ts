@@ -58,5 +58,16 @@ export let Macros: MacroType = {
 			{ click: { key: kc._TAB, times: 5 } }, // click TAB 5 times
 			{ click: { key: kc._F, modifiers: [kc._SHIFT, kc._CONTROL, kc._ALT] } } // click CTRL+SHIFT+ALT+F
 		]
+	},
+
+	//Macro 7: run every 3 secs when notepad window is open
+	'Detect on Notepad': {
+		loop: 3,
+		conditions: {
+			window: /notepad/gi
+		},
+		steps: [
+			{ type: 'notepad is detected' }
+		]
 	}
 }
