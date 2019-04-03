@@ -41,6 +41,9 @@ export let Macros: MacroType = {
 	// Macro 5: type current date 
 	'Custom Function': {
 		hotkeys: [kc._F, kc._ALT],
+		conditions: {
+			window: /notepad/gi		// only trigger when notepad is in focus 
+		},
 		steps: [
 			{ func: typeCurrentDate }
 		]
