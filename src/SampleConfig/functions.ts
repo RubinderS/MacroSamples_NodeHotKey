@@ -1,4 +1,6 @@
-export function typeCurrentDate(pressKey: any, releaseKey: any, click: any, type: any, paste: any, wait: any, setClipboardText: any, getClipboardText: any, matchCurrentWindowTitle: any) {
+import { ToolsType } from 'nodehotkey';
+
+export function typeCurrentDate(tools: ToolsType) {
     let date = new Date();
-    type(date.toLocaleDateString('en-GB'));
+    tools.type(date.toLocaleDateString('en-GB'));
 }
