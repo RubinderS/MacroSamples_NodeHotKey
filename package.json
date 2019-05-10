@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Rubinder25/SampleProject_using_NodeHotKey#readme",
   "dependencies": {
-    "nodehotkey": "^2.0.6"
+    "nodehotkey": "^2.0.7"
   },
   "devDependencies": {
     "@types/node": "^11.9.5",
