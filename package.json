@@ -4,8 +4,8 @@
   "description": "This is a sample project to built using NodeHotKey.",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev nodemon -e js,ts -w ./src --exec \"yarn run build && yarn run start\"",
-    "prod": "cross-env NODE_ENV=prod nodemon -e js,ts -w ./src --exec \"yarn run build && yarn run start\"",
+    "dev": "cross-env NODE_ENV=dev nodemon -e js,ts -w ./src --exec \"npm run build && npm run start\"",
+    "prod": "cross-env NODE_ENV=prod nodemon -e js,ts -w ./src --exec \"npm run build && npm run start\"",
     "start": "node ./build/index.js",
     "build": "tsc"
   },
